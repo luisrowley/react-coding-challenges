@@ -9,6 +9,17 @@
 # Pre-requisites ✅
 - Add your Spotify client ID & secret to `config.js`
   - Note. **Never add this type of config to version control. This would usually come from your build server.**
+  - `src/config.js` should look like:
+  ```javascript
+  export default {
+  api: {
+    baseUrl: 'https://api.spotify.com/v1',
+    authUrl: 'https://accounts.spotify.com/api/token',
+    clientId: '',
+    clientSecret: ''
+  }
+}
+  ```
 
 &nbsp;
 # Requirements 📖
