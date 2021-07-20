@@ -12,13 +12,13 @@
   - `src/config.js` should look like:
   ```javascript
   export default {
-  api: {
-    baseUrl: 'https://api.spotify.com/v1',
-    authUrl: 'https://accounts.spotify.com/api/token',
-    clientId: '',
-    clientSecret: ''
+    api: {
+      baseUrl: 'https://api.spotify.com/v1',
+      authUrl: 'https://accounts.spotify.com/api/token',
+      clientId: CLIENT_KEY,
+      clientSecret: CLIENT_SECRET
+    }
   }
-}
   ```
 
 &nbsp;
