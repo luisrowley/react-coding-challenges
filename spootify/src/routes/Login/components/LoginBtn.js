@@ -26,7 +26,7 @@ export default class LoginBtn extends Component {
     };
 
     loginWithUserPass(){
-        let state = generateRandomString(16);
+        let state = this.generateRandomString(16);
 
     }
 
